@@ -91,9 +91,12 @@ def mars_facts():
     # Assign columns and set index of dataframe
     df.columns=['Description', 'Mars', 'Earth']
     df.set_index('Description', inplace=True)
+    
+    #Create variable to store html
+    html_string = df.to_html()
 
-    # Convert dataframe into HTML format, add bootstrap
-    return df.to_html()
+    # Convert dataframe into HTML format with table-hover style, add bootstrap
+    return html_string.replace("dataframe", "table table-hover")
 
 def mars_hemisphere(browser):
     url = 'https://marshemispheres.com/'
