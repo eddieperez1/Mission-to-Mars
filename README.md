@@ -32,7 +32,7 @@ pip install datatime
 ```
 ### Outline
 
-This project's design is to help a client by web scraping data from several websites and show it on a web page. The data will be information, news and images of Mars. Splinter will be used to web scrape the websites then the data will be stored in a mongo database. Next the data will be displayed on a web page using flask.
+This project's design is to help a client by web scraping data from several websites and show it on a web page. The data will be information, news and images of Mars. Splinter will be used to web scrape the websites then the data will be stored in a mongo database. Next, the data will be displayed on a web page using flask.
 
 ## Results
 
@@ -42,7 +42,7 @@ In the module, the mars news from [redplanetscience.com](https://redplanetscienc
 
 ### Deliverable 2:  Update the Web App with Mars’s Hemisphere Images and Titles
 
-In the module, scraping.py was created to store the code for scraping the websites from deliverable 1. scraping.py has a function for each web scrape and combines it into one function scrape_all. This scrape_all function was added to the app.py to run the website using flask. This project has index.html with a div that holds the images, and text scraped from the web scrape. Then the flask app was run and data was shown on the localhost web page.  
+In the module, scraping.py was created to store the code for scraping the websites from deliverable 1. scraping.py has a function for each web scrape and combines it into one function scrape_all. This scrape_all function was added to the app.py to run the website using flask. This project has index.html with a div that holds the images, and text scraped from the web scrape. Then, the flask app was run and data was shown on the localhost web page.  
 
 ### Deliverable 3: Add Bootstrap 3 Components
 
@@ -59,7 +59,7 @@ The project successfully displays the mars information, news and images that the
 
 ### Usage
 
-To use this code, run app.py and open localhost:5000 on a browser.
+To use this code, run app.py and open localhost:5000 on a browser. Click the button to scrape data.
 
 #### The web page before scraping
 
